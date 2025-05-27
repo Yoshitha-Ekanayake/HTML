@@ -1,0 +1,49 @@
+.downloads-content-1{
+    text-align: center;
+}
+
+html {
+ background-image: url("wallpaper.jpg");
+ opacity: 100%;
+ background-color: black;
+ font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+
+.devices{
+    display: flex;
+    justify-content: center;
+
+}
+
+.downloads-content-1 h1{
+    font-size: 50px;
+    margin-top: 15%;
+    
+}
+
+.downloads-content-1 h2{
+    margin-top:  30px;
+    
+}
+.downloads-content-1 p{
+    margin-top:  30px;
+    
+}
+
+.devices img{
+    color: #fff;
+    width: fit-content;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    
+}
+
+.devices img:hover{
+    background-color: #333;
+    transition: 0.5s;
+}
